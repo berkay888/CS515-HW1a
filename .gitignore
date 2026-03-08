@@ -218,7 +218,6 @@ checkpoints/
 
 # Logs & plots
 runs/
-outputs/
 *.png
 
 # Jupyter

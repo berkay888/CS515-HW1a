@@ -1,0 +1,274 @@
+[
+  {
+    "experiment_name": "baseline",
+    "test_acc": 97.32,
+    "best_val_loss": 0.092334,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 10
+  },
+  {
+    "experiment_name": "depth_1layer",
+    "test_acc": 97.97,
+    "best_val_loss": 0.085583,
+    "num_params": 203530,
+    "hidden_sizes": [
+      256
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 15
+  },
+  {
+    "experiment_name": "depth_3layer",
+    "test_acc": 98.03,
+    "best_val_loss": 0.086075,
+    "num_params": 567434,
+    "hidden_sizes": [
+      512,
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 14
+  },
+  {
+    "experiment_name": "depth_4layer",
+    "test_acc": 97.32,
+    "best_val_loss": 0.090205,
+    "num_params": 575050,
+    "hidden_sizes": [
+      512,
+      256,
+      128,
+      64
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 11
+  },
+  {
+    "experiment_name": "width_small",
+    "test_acc": 97.0,
+    "best_val_loss": 0.109805,
+    "num_params": 52650,
+    "hidden_sizes": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 10
+  },
+  {
+    "experiment_name": "width_large",
+    "test_acc": 97.4,
+    "best_val_loss": 0.092236,
+    "num_params": 669706,
+    "hidden_sizes": [
+      512,
+      512
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 8
+  },
+  {
+    "experiment_name": "activation_gelu",
+    "test_acc": 97.57,
+    "best_val_loss": 0.08884,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "gelu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 11
+  },
+  {
+    "experiment_name": "dropout_02",
+    "test_acc": 97.78,
+    "best_val_loss": 0.082198,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.2,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 11
+  },
+  {
+    "experiment_name": "dropout_05",
+    "test_acc": 97.55,
+    "best_val_loss": 0.095998,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.5,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 19
+  },
+  {
+    "experiment_name": "bn_only",
+    "test_acc": 98.0,
+    "best_val_loss": 0.067417,
+    "num_params": 235914,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": true,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 10
+  },
+  {
+    "experiment_name": "bn_and_dropout",
+    "test_acc": 98.23,
+    "best_val_loss": 0.056349,
+    "num_params": 235914,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.3,
+    "use_batch_norm": true,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 22
+  },
+  {
+    "experiment_name": "l2_1e3",
+    "test_acc": 97.49,
+    "best_val_loss": 0.085671,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.001,
+    "epochs_run": 10
+  },
+  {
+    "experiment_name": "l1_1e4",
+    "test_acc": 97.69,
+    "best_val_loss": 0.0811,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "l1_lambda": 0.0001,
+    "l2_lambda": 0.0,
+    "epochs_run": 12
+  },
+  {
+    "experiment_name": "scheduler_step",
+    "test_acc": 97.32,
+    "best_val_loss": 0.092334,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "step",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 10
+  },
+  {
+    "experiment_name": "scheduler_cosine",
+    "test_acc": 97.51,
+    "best_val_loss": 0.088057,
+    "num_params": 235146,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "use_batch_norm": false,
+    "optimizer": "adam",
+    "scheduler": "cosine",
+    "l1_lambda": 0.0,
+    "l2_lambda": 0.0,
+    "epochs_run": 10
+  }
+]
